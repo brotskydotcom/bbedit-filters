@@ -1,0 +1,13 @@
+[package]
+authors = ["Daniel Brotsky <dev@brotsky.com>"]
+description = "Text filters for use with BBEdit"
+homepage = "https://github.com/brotskydotcom/bbedit-filters"
+license = "MIT OR Apache-2.0"
+keywords = ["BBEdit", "filters"]
+name = "bbedit-filters"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.13.0"
+serde_json = "1.0.79"
